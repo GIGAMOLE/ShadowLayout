@@ -1,22 +1,46 @@
+<br/>
+<p align="center">
+  <a href="http://devlight.io">
+      <img src ="https://drive.google.com/uc?export=download&id=0BxPO_UeS7wScLVBKck51Z1Rzb0E" alt="Devlight"/>
+  </a>
+</p>
+<br/>
+
 ShadowLayout
 ============
 
 This library allows you to create a shadow effect for your layout based on your child.
 
-[![DevLight](https://lh4.googleusercontent.com/-9btnRFp_eVo/V5cfwZsBpMI/AAAAAAAAC4E/s4NGoezKhpAVdVofAoez1QWpzK5Na8_cQCL0B/w147-h20-no/devlight-badge.png)](http://devlight.com.ua)
+[![Android Arsenal](https://drive.google.com/uc?export=download&id=0BxPO_UeS7wScd2otYkEydkdjNUk)](http://android-arsenal.com/details/1/3524)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Android](https://drive.google.com/uc?export=download&id=0BxPO_UeS7wSccEZaclNGN0R5OWc)](https://github.com/DevLight-Mobile-Agency)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Download](https://drive.google.com/uc?export=download&id=0BxPO_UeS7wScLXZTaGprRXZXeEU)](https://bintray.com/gigamole/maven/shadowlayout/_latestVersion)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![License](https://drive.google.com/uc?export=download&id=0BxPO_UeS7wScU0tmeFpGMHVWNWs)](https://github.com/DevLight-Mobile-Agency/ShadowLayout/blob/master/LICENSE.txt)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Codacy](https://drive.google.com/uc?export=download&id=0BxPO_UeS7wScSHhmckZyeGJDcXc)](https://www.codacy.com/app/gigamole53/ShadowLayout?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DevLight-Mobile-Agency/ShadowLayout&amp;utm_campaign=Badge_Grade)
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ShadowLayout-yellow.svg?style=flat)](http://android-arsenal.com/details/1/3524)
-[![Android](https://img.shields.io/badge/platform-android-brightgreen.svg?style=flat&label=Platform)](https://github.com/DevLight-Mobile-Agency)
-[![Download](https://api.bintray.com/packages/gigamole/maven/shadowlayout/images/download.svg)](https://bintray.com/gigamole/maven/shadowlayout/_latestVersion)
-[![Crates.io](https://img.shields.io/crates/l/rustc-serialize.svg?maxAge=2592000&label=License)](https://github.com/DevLight-Mobile-Agency/ShadowLayout/blob/master/LICENSE.txt)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e924623771c64e8eb4de99582d713c7f)](https://www.codacy.com/app/gigamole53/ShadowLayout?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DevLight-Mobile-Agency/ShadowLayout&amp;utm_campaign=Badge_Grade)
+<br/>
 
-![](https://lh4.googleusercontent.com/-2JB-2cEv8lk/Vx4FmHQhjOI/AAAAAAAACTA/nrRGFjcQXBsGiISYSZ5k8gUsVcRw5GSRQCL0B/w349-h552-no/sl.png)
+<p align="center">
+    <img src="https://drive.google.com/uc?export=download&id=0BxPO_UeS7wScT3JXY2t5TzhkTDg"/>
+</p>
 
 You can check the sample app [here](https://github.com/DevLight-Mobile-Agency/ShadowLayout/tree/master/app).
 
+Warn
+====
+```
+This library is not more supported. 
+If you want to add new feature or fix a bug, grab source code and do it. 
+If you think your fix or feature would be useful to other developers, 
+I can add link of your repository to this README file. 
+Thank you for using our libraries.
+```
+
 Download
-------------
+========
 
 You can download a `.aar` from GitHub's [releases page](https://github.com/DevLight-Mobile-Agency/ShadowLayout/releases).
 
@@ -37,7 +61,7 @@ dependencies {
 Or Gradle Maven Central:
 
 ```groovy
-compile 'com.github.devlight.shadowlayout:library:1.0.1'
+compile 'com.github.devlight.shadowlayout:library:1.0.2'
 ```
 
 Or Maven:
@@ -46,7 +70,7 @@ Or Maven:
 <dependency>
     <groupId>com.github.devlight.shadowlayout</groupId>
     <artifactId>library</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <type>aar</type>
 </dependency>
 ```
@@ -63,30 +87,24 @@ Sample
 
 For `ShadowLayout` you can set such parameters as:
  
- - shadowed:
-    
+ - shadowed:  
     allows you to handle shadow visibility.
     
- - shadow distance:
-     
+ - shadow distance:  
     allows you to set distance of shadow.    
 
- - shadow angle:
-    
+ - shadow angle:  
     allows you to set shadow angle.
     
- - shadow radius:
-     
+ - shadow radius:  
     allows you to set shadow radius.
      
- - shadow color:
-     
+ - shadow color:  
     allows you to set shadow color.
     
 <b>Tips</b>
 
-Angle can only be positive and be in range from 0 to 360 degrees.
-
+Angle can only be positive and be in range from 0 to 360 degrees.  
 `ShadowLayout` automatically set padding for shadow space draw.
 
 <b>Init</b>
@@ -107,7 +125,7 @@ Other methods check out in sample.
 And XML init:
 
 ```xml
-<com.gigamole.samples.ShadowLayout
+<com.gigamole.library.ShadowLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:sl_shadowed="true"
@@ -118,23 +136,33 @@ And XML init:
     
     <!-- Set your child`s-->
     
-</com.gigamole.samples.ShadowLayout>
+</com.gigamole.library.ShadowLayout>
 ```
 
 Getting Help
-======
+============
 
 To report a specific problem or feature request, [open a new issue on Github](https://github.com/DevLight-Mobile-Agency/ShadowLayout/issues/new).
 
-License
+Author
 ======
 
-Apache 2.0 and MIT. See [LICENSE](https://github.com/DevLight-Mobile-Agency/ShadowLayout/blob/master/LICENSE.txt) file for details.
+Created by [Basil Miller](https://github.com/GIGAMOLE) - [@gigamole](mailto:gigamole53@gmail.com)
 
-
-Author
+Company
 =======
 
-Made in [DevLight Mobile Agency](https://github.com/DevLight-Mobile-Agency)
+[![Facebook](https://drive.google.com/uc?export=download&id=0BxPO_UeS7wScaGhGVFNKU0VxMnc)](https://www.facebook.com/devlightagency)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Twitter](https://drive.google.com/uc?export=download&id=0BxPO_UeS7wScZ1ExQWh5cHF5cVE)](https://twitter.com/DevLightIO)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![LinkedIn](https://drive.google.com/uc?export=download&id=0BxPO_UeS7wSccGZINzEycE1nVFE)](https://www.linkedin.com/company/devlight)
 
-Created by [Basil Miller](https://github.com/GIGAMOLE) - [@gigamole](mailto:gigamole53@gmail.com)
+[Here](https://github.com/DevLight-Mobile-Agency) you can see open source work developed by Devlight LLC.  
+This and another works is an exclusive property of Devlight LLC. 
+
+If you want to use this library in applications which will be available on Google Play, please report us or author of the library about it.
+
+Whether you're searching for a new partner or trusted team for creating your new great product we are always ready to start work with you. 
+
+You can contact us: info@devlight.io or opensource@devlight.io.  
+Thanks in advance.
+
+Devlight LLC, 2016  
+[devlight.io](http://devlight.io) 
